@@ -1,0 +1,23 @@
+{
+  "name": "@company/cli-tools",
+  "version": "0.0.5",
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "type": "commonjs",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "!**/*.tsbuildinfo"
+  ],
+  "nx": {
+    "name": "biss"
+  },
+  "engines": {
+    "node": ">=10.12.0"
+  },
+  "bin": {
+    "biss": "dist/index.js"
+  }
+}
